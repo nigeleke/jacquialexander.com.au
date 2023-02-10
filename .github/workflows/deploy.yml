@@ -1,4 +1,4 @@
-# Run deploy on main commits.
+# Run deploy on main commits
 #
 # - build
 # - publish dist to gh-pages branch
