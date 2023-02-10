@@ -46,5 +46,11 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+
+  runtimeConfig: {
+    public: {
+      baseURL: process.env.BASE_URL || 'https://nigeleke.github.io/jacquialexander.com.au/',
+    },
+  },
 }

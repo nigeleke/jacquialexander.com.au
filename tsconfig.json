@@ -15,7 +15,7 @@
     "strict": true,
     "noEmit": true,
     "experimentalDecorators": true,
-    "baseUrl": ".",
+    "baseUrl": "nigeleke.github.io/jacquialexander.com.au",
     "paths": {
       "~/*": [
         "./*"
