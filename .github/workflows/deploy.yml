@@ -1,0 +1,46 @@
+# Run deploy on main commits.
+#
+# - build
+# - publish dist to gh-pages branch
+#
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Build
+        run: |
+          pnpm install
+          pnpm generate
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Publish
+        run: |
+          git config --global user.email "nigeleke@users.noreply.github.com"
+          git config --global user.name "Nigel Eke"
+          git checkout gh-pages
+          cp ./dist/*
+          git add .
+          git commit -m "Release"
+          git push
