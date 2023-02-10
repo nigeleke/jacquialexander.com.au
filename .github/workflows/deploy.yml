@@ -48,6 +48,7 @@ jobs:
         run: pnpm install
 
   build:
+    needs: cache-and-install
     runs-on: ubuntu-latest
 
     steps:
