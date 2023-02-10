@@ -16,3 +16,7 @@
   padding-bottom: 25px;
 }
 </style>
+
+<script setup lang="ts">
+  const config = useRuntimeConfig()
+</script>
