@@ -1,9 +1,12 @@
 # jacquialexander.com.au
 
 ```
-$ yarn install
+$ pnpm install
 $ $env:NODE_OPTIONS="--openssl-legacy-provider"
-$ yarn dev
-$ yarn generate
-$ ftp from: ./dist/* to: public_html/jacquialexander.com.au/
+$ pnpm dev
+$ pnpm generate
+$ git checkout gh-pages
+$ cp -R dist/ .
+$ git add .
+$ git commit -m "Release"
 ```
