@@ -1,26 +1,16 @@
 {
-  "name": "nigeleke.github.io/jacquialexander.com.au",
-  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
-  },
-  "dependencies": {
-    "@nuxt/ufo": "^0.5.4",
-    "core-js": "^3.27.2",
-    "nuxt": "^2.16.0",
-    "sass": "^1.58.0",
-    "sass-loader": "^10.4.1",
-    "vue": "^2.7.14",
-    "vue-server-renderer": "^2.7.14",
-    "vue-template-compiler": "^2.7.14",
-    "webpack": "^4.46.0"
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/types": "^2.16.0",
-    "@nuxt/typescript-build": "^2.1.0"
+    "nuxt": "^3.1.2"
+  },
+  "dependencies": {
+    "sass": "^1.58.0"
   }
 }

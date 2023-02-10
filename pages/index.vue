@@ -16,10 +16,3 @@
   padding-bottom: 25px;
 }
 </style>
-
-<script lang="ts">
-import Vue from 'vue'
-export default Vue.extend({
-  name: 'Jacqui Alexander Singing Studio'
-})
-</script>

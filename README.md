@@ -1,12 +1,10 @@
 # jacquialexander.com.au
 
 ```
-$ pnpm install
-$ $env:NODE_OPTIONS="--openssl-legacy-provider"
-$ pnpm dev
+$ pnpm install --shamefully-hoist
 $ pnpm generate
 $ git checkout gh-pages
-$ cp -R dist/* .
+$ cp -R .output/public/* .
 $ git add .
 $ git commit -m "Release"
 ```
