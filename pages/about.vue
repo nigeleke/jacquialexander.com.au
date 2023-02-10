@@ -33,7 +33,6 @@
           <li>BVA (British Voice Association) – Member</li>
           <li>ASPAH (Australian Society for Performing Arts Healthcare) – Member</li>
           <li>ALVA (Australian Ladies Variety Association) – Life Member / Secretary</li>
-          <li>Australian Entertainment MO Awards – Member</li>
           <li>Somatic Voicework(tm) Teachers Association – Member</li>
         </ul>
       </div>
