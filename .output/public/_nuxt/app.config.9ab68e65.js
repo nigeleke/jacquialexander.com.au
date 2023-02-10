@@ -1,0 +1,1 @@
+import{l as n,B as t,C as o}from"./entry.0f817630.js";import"./nuxt-link.a6edda7e.js";function f(e,i){return n()._useHead(e,i)}const r=t({title:"Jacqui Alexander Singing Studio",theme:{dark:!0,colors:{primary:"#ff0000"}}}),u={};o(r,u);export{f as u};
