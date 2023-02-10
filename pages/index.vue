@@ -19,4 +19,5 @@
 
 <script setup lang="ts">
   const config = useRuntimeConfig()
+  const baseURL = config.app.baseURL
 </script>
