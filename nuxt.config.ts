@@ -3,7 +3,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      baseURL: '/nigeleke.github.io/jacquialexander.com.au/' // Exposed to the frontend as well.
+      baseURL: 'https://nigeleke.github.io/jacquialexander.com.au/', // Exposed to the frontend as well.
     }
   },
 

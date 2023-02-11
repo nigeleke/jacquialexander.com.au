@@ -3,8 +3,8 @@
 ```
 $ pnpm install --shamefully-hoist
 $ pnpm generate
+$ mv .output/public/* docs/
 $ git checkout gh-pages
-$ cp -R .output/public/* .
 $ git add .
 $ git commit -m "Release"
 ```
