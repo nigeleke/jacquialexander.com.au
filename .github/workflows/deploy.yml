@@ -52,6 +52,7 @@ jobs:
       - name: Build
         run: |
           pnpm generate
+          mkdir docs
           mv .output/public/* docs/
 
       - name: Publish
