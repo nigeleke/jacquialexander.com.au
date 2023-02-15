@@ -52,14 +52,13 @@ jobs:
       - name: Build
         run: |
           pnpm generate
-          mkdir docs
-          mv .output/public/* docs/
 
       - name: Publish
         run: |
           git config --global user.email "nigeleke@users.noreply.github.com"
           git config --global user.name "Nigel Eke"
           git checkout gh-pages
-          git add .
+          rm -rf .
+          mv .output/public/ .
           git commit -m "Release"
           git push
