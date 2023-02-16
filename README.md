@@ -3,9 +3,10 @@
 ```
 $ pnpm install --shamefully-hoist
 $ pnpm generate
-$ mkdir docs
-$ mv .output/public/* docs/
 $ git checkout gh-pages
+$ rm -rf docs/*
+$ mv .output/public/* docs
 $ git add .
 $ git commit -m "Release"
+$ git push
 ```

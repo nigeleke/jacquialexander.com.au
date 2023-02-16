@@ -46,5 +46,6 @@ jobs:
           git checkout gh-pages
           rm -rf docs/*
           mv .output/public/* docs
+          git add .
           git commit -m "Release"
           git push
