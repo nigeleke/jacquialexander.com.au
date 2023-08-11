@@ -11,7 +11,7 @@
     in
     {
       devShells.${system}.default = pkgs.mkShell {
-        packages = [ pkgs.nodePackages.pnpm ];
+        packages = [ pkgs.nodePackages.pnpm pkgs.vscode ];
       };
     };
 }

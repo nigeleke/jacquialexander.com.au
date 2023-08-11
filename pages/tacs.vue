@@ -116,12 +116,12 @@ div.hidden {
 </style>
 
 <script lang="ts">
-export default ({
+export default {
   methods: {
     revealAnswer: function (event: { currentTarget: { nextElementSibling: any } }) {
       let sibling = event.currentTarget.nextElementSibling
       sibling.style.display = "block"
     }
   }
-})
+}
 </script>
