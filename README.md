@@ -3,7 +3,7 @@
 ## Develop
 
 ```
-$ export NIXPKGS_ALLOW_IMPURE=1
+$ export NIXPKGS_ALLOW_UNFREE=1
 $ nix develop --impure
 $ pnpm install --shamefully-hoist
 $ pnpm generate
