@@ -6,19 +6,7 @@
           <NuxtLink to="/">Welcome</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/about">About</NuxtLink>
-        </li>
-        <li>
-          <NuxtLink to="/lessons">Lessons</NuxtLink>
-        </li>
-        <li>
-          <NuxtLink to="/tacs">T&Cs</NuxtLink>
-        </li>
-        <li>
-          <NuxtLink to="/faq">FAQ</NuxtLink>
-        </li>
-        <li>
-          <NuxtLink to="/contact">Contact</NuxtLink>
+          <NuxtLink to="/recommendations">Recommendations</NuxtLink>
         </li>
       </nav>
     </div>
