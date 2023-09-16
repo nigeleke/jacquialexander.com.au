@@ -4,7 +4,7 @@
     <div class="standard-page">
       <p>I put off making this decision for some time as I have been concerned at leaving you
         all with no singing teacher in the area. However, recent moves have meant that I now
-	have two Singing Studios that I can highly recommend.</p>
+	have two singing studios that I can highly recommend.</p>
       <h4>Jessica Sibrava</h4>
       <p>Milton <a href="https://www.facebook.com/jsibravasoprano/">https://www.facebook.com/jsibravasoprano/</a></p>
       <p>Jess is a lovely teacher and has a wealth of experience and knowledge. Her classes

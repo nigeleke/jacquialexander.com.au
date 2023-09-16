@@ -5,14 +5,14 @@
       <div class="index-section">
         <img src="~/assets/images/jacquialexander.jpg" alt="Image of Jacqui" class="bio-shot" />
 
-        <p>After 26 years as a Singing Teacher and over 60 years performing in the music industry,
+        <p>After 26 years as a singing teacher and over 60 years performing in the music industry,
 	  it is with much consideration, and a little sadness, that I have decided to take retirement.</p>
 	<p>Therefore the 'Jacqui Alexander Singing Studio' will close as of the last lesson for 2023 being
 	  Thursday 30 November.</p>
         <p>It has been an amazing time working with so many talented and creative students and I am
 	  so very proud of each and every one of you. I have watched so many strive, achieve, stumble
 	  and carry on regardless, and then finally grow into the wonderful humans you now are.
-	  You have brought incredible joy and happiness into my life, and I woill be forever grateful.
+	  You have brought incredible joy and happiness into my life, and I will be forever grateful.
 	  My wish is for you to continue sharing your love of music, and to fill your homes with the
 	  magic it brings.</p>
 	<p>I am looking forward to this next part of my life and whatever comes with it. If it is anywhere
